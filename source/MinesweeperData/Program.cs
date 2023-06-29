@@ -104,7 +104,7 @@ namespace MinesweeperData
             {
                 for (int x = 0; x < size.x; x++)
                 {
-                    output += grid[x, y] ? 'X' : '-';
+                    output += grid[x, y] ? 'X' : ' ';
                 }
                 output += '\n';
             }
